@@ -34,7 +34,7 @@ With the rounded side facing ***away*** from left to right:
 
 ## Use
 
-This is just a super basic system so this is what it does:
+This is just a super basic system:
 
 * LED1 - Green - Signals temp OK
 * LED2 - Red -  Outside ideal range (20 - 35 degrees Celsius)
