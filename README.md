@@ -10,7 +10,7 @@ Simple soil moisture and ambient temperature monitoring system.
 - 4.7K resistor - If you don't have one, get a [resistor pack](https://coolcomponents.co.uk/products/resistor-kit-1-4w-500-total)
 
 ## Basic Setup
-There are only 2 sensors in this project, both can be run off a shared 3.3v rail and shared ground rail.
+There are only 2 sensors in this project, both can be run off a shared 3.3v rail and shared ground rail if breadboarding it.
 
 Check out the fritzing diagram for more clarification. ***Please note:*** the soil moisture sensor in the fritzing diagram isn't the same, but they all work on the same principle.
 
@@ -21,16 +21,16 @@ Check out the fritzing diagram for more clarification. ***Please note:*** the so
 * VCC - 3.3v rail
 * GND - Ground rail
 * DO - _not used_
-* AO - straight to pin A1
+* AO - straight to pin C5
 
 ### Temperature Sensor
 With the rounded side facing ***away*** from left to right:
 
 * 0 - Ground rail
-* 1 - pin A0
+* 1 - pin A1
 * 2 - 3.3v rail
 
-***Note:*** You need to put the 4.7K resistor between pins 1 & 2 (data and live)
+***Note:*** You need to put the 4.7K resistor between pins 1 & 2 (data and power)
 
 ## Use
 
