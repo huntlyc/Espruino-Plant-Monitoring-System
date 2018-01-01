@@ -14,6 +14,8 @@ There are only 2 sensors in this project, both can be run off a shared 3.3v rail
 
 Check out the fritzing diagram for more clarification. ***Please note:*** the soil moisture sensor in the fritzing diagram isn't the same, but they all work on the same principle.
 
+![Circuit Diagram](https://github.com/huntlyc/Espurino-Plant-Monitoring-System/raw/master/circuit-diagram.png)
+
 ### Soil Sensor
 
 * VCC - 3.3v rail
