@@ -99,8 +99,8 @@ PlantMonitor.prototype.setupNextCheckInterval = function(){
     var _self = this;
 
     if(this.currentTimeoutID !== undefined){
-		clearTimeout(this.currentTimeoutID);
-	}
+        clearTimeout(this.currentTimeoutID);
+    }
 
     this.currentTimeoutID = setTimeout(function(){
         _self.monitor();
