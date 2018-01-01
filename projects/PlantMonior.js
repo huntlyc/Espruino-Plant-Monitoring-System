@@ -38,9 +38,9 @@ function PlantMonitor() {
     this.blueLED = LED3;
 
     //Sensors
-    this.ow = new OneWire(A0);
+    this.ow = new OneWire(A1);
 
-    this.moistureSensor = require('moisturesensor').connect(A1);
+    this.moistureSensor = require('moisturesensor').connect(C5);
     this.tempSensor = require("DS18B20").connect(this.ow);
 
     //General config
