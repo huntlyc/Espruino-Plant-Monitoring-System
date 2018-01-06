@@ -80,6 +80,24 @@ PlantMonitor.prototype.monitor = function(){
 
     this.setupNextCheckInterval();
 };
+PlantMonitor.prototype.getSensorJSON = function(){
+    var _self = this;
+
+    var plant = {
+        moisture: -1,
+        temperature: -1
+    };
+
+    plant.moisture = this.moistureSensor.getMoistureLevel();
+
+
+    //Get and echo current ambiant temperature
+    this.tempSensor.getTemp(function (temp) {
+        plant.temperature = temp;
+    });
+
+    console.log(plant);
+};
 
 PlantMonitor.prototype.getSensorInfo = function(){
     var _self = this;
