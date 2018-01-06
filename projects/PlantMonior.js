@@ -1,6 +1,6 @@
 /**!
  *
- * Espurino Plant Monitoring System
+ * Espruino Plant Monitoring System
  * ========================
  * Created 2018-01-10 by Huntly Cameron <huntly.cameron@gmail.com>
  *
