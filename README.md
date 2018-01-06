@@ -2,6 +2,8 @@ Espruino Plant Monitoring System
 ================================
 Simple soil moisture and ambient temperature monitoring system.
 
+To _"IoT"_ this project checkout my [raspbery pi project](https://www.github.com/huntlyc/pi-espruino-plant-monitor) 
+
 ## Required components/Shopping list:
 
 - [Espruino](https://www.espruino.com/EspruinoBoard) - I've used the standard OneWire
