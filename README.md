@@ -2,11 +2,11 @@ Espruino Plant Monitoring System
 ================================
 Simple soil moisture and ambient temperature monitoring system.
 
-To _"IoT"_ this project checkout my [raspbery pi project](https://www.github.com/huntlyc/pi-espruino-plant-monitor) 
+To _"IoT"_ this project checkout my [raspbery pi project](https://www.github.com/huntlyc/pi-espruino-plant-monitor)
 
 ## Required components/Shopping list:
 
-- [Espruino](https://www.espruino.com/EspruinoBoard) - I've used the standard OneWire
+- [Espruino](https://www.espruino.com/EspruinoBoard) 
 - [One Wire Digital Temperature Sensor - DS18B20](https://www.sparkfun.com/products/245)
 - [Soil Moisture Sensor](https://www.bitsbox.co.uk/index.php?main_page=product_info&cPath=302_306&products_id=2816)
 - 4.7K resistor - If you don't have one, get a [resistor pack](https://coolcomponents.co.uk/products/resistor-kit-1-4w-500-total)
